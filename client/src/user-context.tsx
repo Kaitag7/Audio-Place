@@ -47,7 +47,7 @@ export const UserProvider = (props: UserProviderProps) => {
     };
 
     const myClient = new StreamVideoClient({
-      apiKey: "5cbshunadgbw",
+      apiKey: "", // write apikey from Stream profile
       user: user,
       token: token,
     });

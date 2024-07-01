@@ -55,7 +55,7 @@ export const SignIn = () => {
     };
 
     const myClient = new StreamVideoClient({
-      apiKey: "5cbshunadgbw",
+      apiKey: "", // write apikey from Stream profile
       user: user,
       token: responseData.token,
     });
